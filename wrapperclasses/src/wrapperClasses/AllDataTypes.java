@@ -6,28 +6,28 @@ public class AllDataTypes {
 		// All primitive data types
 		
 		int i = 13;
-		Integer a = i;
+		Integer a = new Integer(i);
 		
 		float f = 31.1f;
-		Float x = f;
+		Float x = new Float(f);
 
 		double d = 13.2323;
-		Double y = d;
+		Double y = new Double(d);
 		
 		short s = 3;
-		Short z = s;
+		Short z = new Short(s);
 		
 		byte b = 10;
-		Byte e = b;
+		Byte e = new Byte(b);
 		
 		long l = 2420030050L;
-		Long g = l;
+		Long g = new Long(l);
 		
 		char c = 'p';
-		Character r = c;
+		Character r = new Character(c);
 		
 		boolean o = true;
-		Boolean n = o;
+		Boolean n = new Boolean(o);
 		
 	System.out.println("Integer datatype : " + a);
 	System.out.println("Float datatype : " + x);
@@ -39,8 +39,8 @@ public class AllDataTypes {
 	System.out.println("Boolean datatype : " + n);
 	
 	
-		
-  
+
 	}
 
 }
+
